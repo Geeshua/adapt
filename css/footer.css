@@ -18,11 +18,12 @@
 }
 
 .logo{
-    margin-right: 20px;
+    margin-right: 8px;
 }
 
 .co{
-    white-space: pre-line;
+    padding-top: 2,5px;
+    white-space: pre-wrap;
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;
@@ -34,6 +35,11 @@
     font-size: 12px;
     line-height: 17px;
     color: #FFFFFF;
+}
+
+.footer__scheme>.phone{
+    padding-top: 0;
+    padding-right: 1px;
 }
 
 .additional{
