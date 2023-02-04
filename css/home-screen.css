@@ -74,7 +74,7 @@
     margin: 0 auto 4px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .home-screen{
         background-image: url(../img/stag-office-mockup_1024.png);
     }
@@ -117,8 +117,24 @@
     }
 }
 
+@media (max-width: 875px) {
+    .content__title{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 25   px;
+    }
 
-@media (max-width: 330px) {
+    .content__text{
+        font-size: 16px;
+        line-height: 23px;
+        padding: 0;
+        margin-bottom: 54px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
     .home-screen{
         background-image: url(../img/stag-office-mockup_320.png);
         height: 441px;
@@ -182,4 +198,35 @@
         line-height: 19px;
     }
 
+}
+
+@media (max-width: 640px) {
+    .home-screen{
+        background-image: url(../img/stag-office-mockup_1024.png);
+    }
+
+    .home-screen__content{
+        padding: 0;
+    }
+    
+    .content__title{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 23px;
+    }
+
+    .content__text{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+        margin-bottom: 54px;
+    }
+
+    
+    .content__button{
+        width: 160px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }

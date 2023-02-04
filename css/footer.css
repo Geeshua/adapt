@@ -40,9 +40,44 @@
     display: none;
 }
 
-@media  (max-width: 1024px) {
+@media  (max-width: 1440px) {
     .footer{
     padding: 45px 30px;
+    }
+}
+
+@media (max-width: 640px) {
+
+
+    .co{
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .footer__scheme >.phone{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .footer__scheme>.phone>.tel{
+        font-size: 11px;
+        line-height: 18px;  
+    }
+    .author{
+        display: none;
+    }
+
+    .additional{
+        display: block;
+        height: 47px;
+        padding: 17px 78px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.5);
+        background-color: #2A2C3F;
+
     }
 }
 

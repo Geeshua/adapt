@@ -90,7 +90,7 @@
     color: #4A76A8;
 }
 
-@media  (max-width: 1024px) {
+@media  (max-width: 1440px) {
     .contacts{
         background-image: url(../img/contacts_1024.png  );
     }
